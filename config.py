@@ -12,3 +12,4 @@ DATABASE_URL = os.environ.get("DATABASE_URL", None)
 MONGO_URI = os.environ.get("MONGO_URI", None)
 LOAD = []
 NO_LOAD = []
+MUST_JOIN = None
