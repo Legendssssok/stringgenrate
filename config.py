@@ -13,3 +13,5 @@ MONGO_URI = os.environ.get("MONGO_URI", None)
 LOAD = []
 NO_LOAD = []
 MUST_JOIN = None
+auth_users = "5591734243"
+AUTH_USERS = [int(num) for num in auth_users.split(",")]
