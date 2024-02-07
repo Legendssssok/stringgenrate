@@ -10,3 +10,5 @@ REDISHOST = os.environ.get("REDISHOST", None)
 REDISUSER = os.environ.get("REDISUSER", None)
 DATABASE_URL = os.environ.get("DATABASE_URL", None)
 MONGO_URI = os.environ.get("MONGO_URI", None)
+LOAD = []
+NO_LOAD = []
