@@ -1,51 +1,11 @@
 {
-  "name": "String Session Generator",
-  "description": "Telegram bot to generate Pyrogram & Telethon StringSession Made By LegendBoy(@LegendBoy_XD) Edited By Tony Stark For Education",
-  "logo": "https://te.legra.ph/file/85a68063ace8fd5a28596.jpg",
-  "keywords": [
-    "telegram",
-    "bot",
-    "python",
-    "pyrogram"
-  ],
-    "buildpacks": [{
-    "url": "heroku/python"
-  }],
-  "formation": {
-    "worker": {
-      "quantity": 1,
-      "size": "free"
+    "name":"Userbot ahtoforward",
+    "description":"Ruma Motion",
+    "repository":"https://github.com/",
+    "env": {
+        "LOL":{
+            "description": "Get your soon",
+            "value":"828"
+        }
     }
-  },
-  "addons": [
-      {
-         "options": {
-            "version": "12"
-         },
-         "plan": "heroku-postgresql"
-      }
-   ],
-  "repository": "https://github.com/Itztonystark/STRING-GENERATE",
-  "env": {
-    "ENVIRONMENT": {
-      "description": "Don't change ANYTHING.",
-      "required": true,
-      "value": "ANYTHING"
-    },
-    "API_ID": {
-      "description": "Get this value from my.telegram.org.",
-      "required": true,
-      "value": ""
-    },
-    "API_HASH": {
-      "description": "Get this value from my.telegram.org.",
-      "required": true,
-      "value": ""
-    },
-    "BOT_TOKEN": {
-      "description": "Obtain a Telegram bot token by contacting @BotFather",
-      "required": true,
-      "value": ""
-    }
-  }
 }
