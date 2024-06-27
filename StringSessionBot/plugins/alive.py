@@ -1,6 +1,6 @@
 from platform import python_version as y
 
-from pyrogram1 import __version__ as oldpyrover
+#from pyrogram1 import __version__ as oldpyrover
 from pyrogram import Client
 from pyrogram import __version__ as pyrover
 from pyrogram import filters
