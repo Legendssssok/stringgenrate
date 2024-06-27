@@ -4,7 +4,7 @@ import random
 import struct
 from asyncio.exceptions import TimeoutError
 
-from pyrogram1 import Client as Client1
+#from pyrogram1 import Client as Client1
 from pyrogram import Client, filters
 from pyrogram.errors import (
     ApiIdInvalid,
